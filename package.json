@@ -11,7 +11,7 @@
     "codecov": "codecov",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "build": "babel src/ -d build/ --delete-dir-on-start --copy-files",
-    "build:prod": "BABEL_ENV=production babel npm run build",
+    "build:prod": "BABEL_ENV=production npm run build",
     "lint": "eslint --ext .js .",
     "test": "jest --coverage --passWithNoTests",
     "prepublishOnly": "npm run build:prod",
@@ -23,7 +23,14 @@
     "type": "git",
     "url": "https://github.com/jaebradley/emoji-search-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "emoji",
+    "search",
+    "emoji search",
+    "cli",
+    "emoji cli",
+    "emoji search cli"
+  ],
   "bugs": {
     "url": "https://github.com/jaebradley/emoji-search-cli/issues"
   },
