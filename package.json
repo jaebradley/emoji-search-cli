@@ -1,0 +1,59 @@
+{
+  "name": "emoji-search-cli",
+  "version": "0.0.0-development",
+  "description": "Search for emojis in your CLI",
+  "main": "./build/index.js",
+  "bin": {},
+  "global": true,
+  "scripts": {
+    "codecov": "codecov",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "compile": "babel src/ -d build/ --delete-dir-on-start --copy-files",
+    "compile:prod": "BABEL_ENV=production babel npm run compile",
+    "lint": "eslint --ext .js .",
+    "test": "jest --coverage --passWithNoTests",
+    "prepublishOnly": "npm run compile:prod",
+    "semantic-commit": "commit",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaebradley/emoji-search-cli.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jaebradley/emoji-search-cli/issues"
+  },
+  "homepage": "https://github.com/jaebradley/emoji-search-cli#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.46",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-transform-async-to-generator": "^7.0.0-beta.46",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@commitlint/cli": "^6.2.0",
+    "@commitlint/config-angular": "^6.1.3",
+    "@commitlint/prompt": "^6.1.3",
+    "@commitlint/prompt-cli": "^6.1.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-minify": "^0.4.2",
+    "codecov": "^3.0.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "semantic-release": "^15.4.1",
+    "travis-deploy-once": "^5.0.0"
+  }
+}
