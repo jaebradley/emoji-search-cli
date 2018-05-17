@@ -1,5 +1,6 @@
 # `emoji-search-cli`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/emoji-search-cli.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jaebradley/emoji-search-cli.svg?branch=master)](https://travis-ci.org/jaebradley/emoji-search-cli)
 [![npm](https://img.shields.io/npm/dt/emoji-search-cli.svg)](https://www.npmjs.com/package/emoji-search-cli)
 [![npm](https://img.shields.io/npm/v/emoji-search-cli.svg)](https://www.npmjs.com/package/emoji-search-cli)
