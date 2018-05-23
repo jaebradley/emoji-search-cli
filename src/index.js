@@ -45,5 +45,5 @@ program
 selectEmoji()
   .then((selection) => {
     clipboardy.writeSync(selection);
-    console.log(`😃  Copied ${selection}   to clipboard!`);
+    console.log(`😃  Copied ${selection}  to clipboard!`);
   }).catch(() => console.log('😞  Oh no, an error!'));
