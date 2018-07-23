@@ -47,7 +47,7 @@
     "commander": "^2.15.1",
     "fuse.js": "^3.2.0",
     "inquirer": "^6.0.0",
-    "inquirer-autocomplete-prompt": "^0.12.2"
+    "inquirer-autocomplete-prompt": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.46",
