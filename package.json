@@ -44,7 +44,7 @@
     "@babel/plugin-transform-runtime": "^7.0.0-beta.46",
     "@babel/runtime": "^7.0.0-beta.46",
     "clipboardy": "^1.2.3",
-    "commander": "^2.15.1",
+    "commander": "^3.0.0",
     "fuse.js": "^3.2.0",
     "inquirer": "^6.0.0",
     "inquirer-autocomplete-prompt": "^1.0.0"
