@@ -31,7 +31,7 @@ const selectEmoji = async () => {
     type: 'autocomplete',
     name: 'emoji',
     message: 'Select an emoji',
-    source: (answersSoFar, input) => Promise.resolve(searchableEmojis.search(input || '').map(result => result.emoji)),
+    source: (answersSoFar, input) => Promise.resolve(searchableEmojis.search(input || '').map((result) => result.emoji)),
   });
 
   return emoji;
