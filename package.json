@@ -43,7 +43,7 @@
     "clipboardy": "^2.2.0",
     "commander": "^4.1.1",
     "fuse.js": "^3.4.6",
-    "inquirer": "^7.0.5",
+    "inquirer": "^7.1.0",
     "inquirer-autocomplete-prompt": "^1.0.2"
   },
   "devDependencies": {
