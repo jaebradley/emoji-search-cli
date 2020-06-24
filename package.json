@@ -42,7 +42,7 @@
     "@babel/runtime": "^7.10.0",
     "clipboardy": "^2.3.0",
     "commander": "^5.1.0",
-    "fuse.js": "^6.0.1",
+    "fuse.js": "^6.0.2",
     "inquirer": "^7.1.0",
     "inquirer-autocomplete-prompt": "^1.0.2"
   },
