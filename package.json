@@ -38,8 +38,8 @@
   "homepage": "https://github.com/jaebradley/emoji-search-cli#readme",
   "dependencies": {
     "@babel/plugin-transform-async-to-generator": "^7.10.4",
-    "@babel/plugin-transform-runtime": "^7.10.3",
-    "@babel/runtime": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
     "clipboardy": "^2.3.0",
     "commander": "^5.1.0",
     "fuse.js": "^6.2.0",
